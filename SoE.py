@@ -9,6 +9,7 @@ def Eprime(x):
                 sieve[j] = False
     return sieve.count(True) - 2
 
+
 n = int(input('Enter the max: '))
 start = time.time()
 number_of_prime = Eprime(n) 

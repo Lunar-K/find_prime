@@ -13,12 +13,6 @@ def lprime(i):
             True
     return 1
 
-
-
-
-
-
-
 n = int(input('Enter the max more than 2: '))
 start = time.time()
 number = 1
@@ -26,8 +20,6 @@ number = 1
 for i in range(3, n+1):
       number += lprime(i)
             
-       
-
 print(number)
 print('time taken:',time.time()-start)
             
